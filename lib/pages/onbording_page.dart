@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:nectar_app/components/button_green.dart';
+import 'package:nectar_app/components/custom_button.dart';
 
 class onbordingPage extends StatefulWidget {
   const onbordingPage({super.key});
@@ -58,14 +58,9 @@ class _onbordingPageState extends State<onbordingPage> {
                       ),
                     ),
                     const SizedBox(height: 30),
-                    Container(
-                      width: MediaQuery.of(context).size.width,
-                      height: 50,
-                      margin: EdgeInsets.symmetric(horizontal: 15),
-                      child: ButtonGreen(
-                        onPressed: () {},
-                        text: 'Get Started',
-                      ),
+                    ButtonGreen(
+                      onPressed: () {},
+                      text: 'Get Started',
                     ),
                   ],
                 ),

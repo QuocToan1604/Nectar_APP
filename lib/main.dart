@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_app/pages/onbording_page.dart';
+import 'package:nectar_app/pages/sing_in_page.dart';
 import 'package:nectar_app/pages/splash_page.dart';
 
 void main() {
@@ -19,7 +20,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: splashPage(),
-      home: onbordingPage(),
+      // home: onbordingPage(),
+      home: singInPage(),
+
       
 
     );
