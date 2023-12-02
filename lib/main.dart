@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nectar_app/pages/numberphone_page.dart';
 import 'package:nectar_app/pages/onbording_page.dart';
 import 'package:nectar_app/pages/sing_in_page.dart';
 import 'package:nectar_app/pages/splash_page.dart';
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: splashPage(),
       // home: onbordingPage(),
-      home: singInPage(),
+      // home: singInPage(),
+      home: numberPhonePage(),
 
       
 

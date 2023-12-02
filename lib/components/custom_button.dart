@@ -47,7 +47,9 @@ class ButtonGoogle extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image(image: AssetImage('assets/images/sing_in/google.png'),),
+            Image(
+              image: AssetImage('assets/images/sing_in/google.png'),
+            ),
             const SizedBox(width: 30),
             Text(text),
           ],
@@ -90,3 +92,4 @@ class ButtonFacebook extends StatelessWidget {
     );
   }
 }
+
