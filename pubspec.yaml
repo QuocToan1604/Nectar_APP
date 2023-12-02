@@ -60,6 +60,7 @@ flutter:
   assets:
     - assets/images/splash/
     - assets/images/onbording/
+    - assets/images/sing_in/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
