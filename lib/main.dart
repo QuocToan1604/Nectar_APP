@@ -3,6 +3,7 @@ import 'package:nectar_app/pages/numberphone_page.dart';
 import 'package:nectar_app/pages/onbording_page.dart';
 import 'package:nectar_app/pages/sing_in_page.dart';
 import 'package:nectar_app/pages/splash_page.dart';
+import 'package:nectar_app/pages/verifiticationphone_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       // home: splashPage(),
       // home: onbordingPage(),
       // home: singInPage(),
-      home: numberPhonePage(),
+      // home: numberPhonePage(),
+      home: verifiticationPhonePage(),
 
       
 
