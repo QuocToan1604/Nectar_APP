@@ -10,7 +10,7 @@ class ButtonGreen extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: 50,
-      margin: EdgeInsets.symmetric(horizontal: 15),
+      // margin: EdgeInsets.symmetric(horizontal: 15),
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
