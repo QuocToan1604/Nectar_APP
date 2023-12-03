@@ -27,7 +27,7 @@ class _onbordingPageState extends State<onbordingPage> {
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
               child: Container(
-                padding: EdgeInsets.only(bottom: 80),
+                padding: EdgeInsets.only(bottom: 80, left: 15, right: 15),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
