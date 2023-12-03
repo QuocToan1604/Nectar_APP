@@ -7,15 +7,17 @@ class customTextFile extends StatelessWidget {
   final IconData? icon;
   final TextInputType? keyboardType;
   final bool obscureText;
+  //  bool _showPasssword = false;
 
-  const customTextFile(
-      {super.key,
-      required this.hintText,
-      this.onChanged,
-      this.controller,
-      this.icon,
-      this.keyboardType,
-      this.obscureText = true});
+  const customTextFile({
+    super.key,
+    required this.hintText,
+    this.onChanged,
+    this.controller,
+    this.icon,
+    this.keyboardType,
+    this.obscureText = true,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -25,9 +27,10 @@ class customTextFile extends StatelessWidget {
       obscureText: obscureText,
       keyboardType: keyboardType,
       decoration: InputDecoration(
-        hintText: hintText,
-        enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Color(0xFFE2E2E2)))
-      ),
+          hintText: hintText,
+          enabledBorder: UnderlineInputBorder(
+              borderSide: BorderSide(color: Color(0xFFE2E2E2)))),
     );
   }
 }
+
