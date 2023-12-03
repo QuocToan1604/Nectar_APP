@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_app/pages/location_page.dart';
+import 'package:nectar_app/pages/login_page.dart';
 import 'package:nectar_app/pages/numberphone_page.dart';
 import 'package:nectar_app/pages/onbording_page.dart';
 import 'package:nectar_app/pages/sing_in_page.dart';
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
       // home: singInPage(),
       // home: numberPhonePage(),
       // home: verifiticationPhonePage(),
-      home: locationPage(),
+      // home: locationPage(),
+      home: loginPage(),
 
       
 
